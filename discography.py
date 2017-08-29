@@ -31,140 +31,140 @@ session.commit()
 
 
 #Songs for Parachutes album
-album1 = Album(name = "Parachutes")
+album1 = Album(name = "Parachutes", album_id = 1)
 
 session.add(album1)
 session.commit()
 
 
-songItem1 = songItem(name = "Don't Panic", year = "2001", length = "2:17", genre = "alternative rock, soft rock", album = album1)
+songItem1 = songItem(name = "Don't Panic", year = "2001", length = "2:17", genre = "alternative rock, soft rock", album = album1, album_id = 1, song_id =1)
 
 session.add(songItem1)
 session.commit()
 
-songItem2 = songItem(name = "Shiver", year = "2000", length = "5:00", genre = "alternative rock, post-Britpop", album = album1)
+songItem2 = songItem(name = "Shiver", year = "2000", length = "5:00", genre = "alternative rock, post-Britpop", album = album1, album_id = 1, song_id =2)
 
 session.add(songItem2)
 session.commit()
 
-songItem3 = songItem(name = "Yellow", year = "2000", length = "4:29", genre = "alternative rock", album = album1)
+songItem3 = songItem(name = "Yellow", year = "2000", length = "4:29", genre = "alternative rock", album = album1, album_id = 1, song_id =3)
 
 session.add(songItem3)
 session.commit()
 
-songItem4 = songItem(name = "Trouble", year = "2000", length = "4:31", genre = "piano rock", album = album1)
+songItem4 = songItem(name = "Trouble", year = "2000", length = "4:31", genre = "piano rock", album = album1, album_id = 1, song_id =4)
 
 session.add(songItem4)
 session.commit()
 
 
 #Songs for A Rush of Blood to the Head
-album2 = Album(name = "A Rush of Blood to the Head")
+album2 = Album(name = "A Rush of Blood to the Head", album_id = 2)
 
 session.add(album2)
 session.commit()
 
 
-songItem1 = songItem(name = "In My Place", year = "2002", length = "3:48", genre = "alternative rock, soft rock", album = album2)
+songItem1 = songItem(name = "In My Place", year = "2002", length = "3:48", genre = "alternative rock, soft rock", album = album2, album_id = 2, song_id =5)
 
 session.add(songItem1)
 session.commit()
 
-songItem2 = songItem(name = "God Put a Smile upon Your Face", year = "2003", length = "4:58", genre = "alternative rock, folk rock", album = album2)
+songItem2 = songItem(name = "God Put a Smile upon Your Face", year = "2003", length = "4:58", genre = "alternative rock, folk rock", album = album2, album_id = 2, song_id =6)
 
 session.add(songItem2)
 session.commit()
 
-songItem3 = songItem(name = "The Scientis", year = "2002", length = "5:09", genre = "alternative rock, soft rock, piano rock", album = album2)
+songItem3 = songItem(name = "The Scientis", year = "2002", length = "5:09", genre = "alternative rock, soft rock, piano rock", album = album2, album_id = 2, song_id =7)
 
 session.add(songItem3)
 session.commit()
 
-songItem4 = songItem(name = "Clocks", year = "2002", length = "5:07", genre = "alternative rock, soft rock", album = album2)
+songItem4 = songItem(name = "Clocks", year = "2002", length = "5:07", genre = "alternative rock, soft rock", album = album2, album_id = 2, song_id =8)
 
 session.add(songItem4)
 session.commit()
 
 
 #Songs for X & Y album
-album3 = Album(name = "X & Y")
+album3 = Album(name = "X & Y", album_id = 3)
 
 session.add(album3)
 session.commit()
 
 
-songItem1 = songItem(name = "White Shadows", year = "2007", length = "5:28", genre = "alternative rock", album = album3)
+songItem1 = songItem(name = "White Shadows", year = "2007", length = "5:28", genre = "alternative rock", album = album3, album_id = 3, song_id =9)
 
 session.add(songItem1)
 session.commit()
 
-songItem2 = songItem(name = "Fix You", year = "2005", length = "4:54", genre = "alternative rock, post-Brtipop", album = album3)
+songItem2 = songItem(name = "Fix You", year = "2005", length = "4:54", genre = "alternative rock, post-Brtipop", album = album3, album_id = 3, song_id =10)
 
 session.add(songItem2)
 session.commit()
 
-songItem3 = songItem(name = "Speed Sound", year = "2005", length = "4:49", genre = "alternative rock, post-Brtipop", album = album3)
+songItem3 = songItem(name = "Speed Sound", year = "2005", length = "4:49", genre = "alternative rock, post-Brtipop", album = album3, album_id = 3, song_id =11)
 
 session.add(songItem3)
 session.commit()
 
-songItem4 = songItem(name = "The Hardest Part", year = "2006", length = "4:25", genre = "alternative rock", album = album3)
+songItem4 = songItem(name = "The Hardest Part", year = "2006", length = "4:25", genre = "alternative rock", album = album3, album_id = 3, song_id =12)
 
 session.add(songItem4)
 session.commit()
 
 
 #Songs for Viva la Vida Album
-album4 = Albbum(name = "Viva la Vida or Death and All His Friends")
+album4 = Albbum(name = "Viva la Vida or Death and All His Friends", album_id = 4)
 
 session.add(album4)
 session.commit()
 
 
-songItem1 = songItem(name = "Cemeteries of London", year = "2007-2008", length = "3:21", genre = "alternative rock", album = album4)
+songItem1 = songItem(name = "Cemeteries of London", year = "2007-2008", length = "3:21", genre = "alternative rock", album = album4, album_id = 4, song_id =13)
 
 session.add(songItem1)
 session.commit()
 
-songItem2 = songItem(name = "Viva la Vida", year = "2008", length = "4:01", genre = "Baroque Pop", album = album4)
+songItem2 = songItem(name = "Viva la Vida", year = "2008", length = "4:01", genre = "Baroque Pop", album = album4, album_id = 4, song_id =14)
 
 session.add(songItem2)
 session.commit()
 
-songItem3 = songItem(name = "Violet Hill", year = "2008", length = "3:49", genre = "alternative rock", album = album4)
+songItem3 = songItem(name = "Violet Hill", year = "2008", length = "3:49", genre = "alternative rock", album = album4, album_id = 4, song_id =15)
 
 session.add(songItem3)
 session.commit()
 
-songItem4 = songItem(name = "Strawberry Swing", year = "2009", length = "4:11", genre="alternative rock, folk pop", album = album4)
+songItem4 = songItem(name = "Strawberry Swing", year = "2009", length = "4:11", genre="alternative rock, folk pop", album = album4, album_id = 4, song_id =16)
 
 session.add(songItem4)
 session.commit()
 
 
 #Songs for Mylo Xyloto Album
-album5 = Album(name = "Mylo Xyloto")
+album5 = Album(name = "Mylo Xyloto", album_id = 5)
 
 session.add(album5)
 session.commit()
 
 
-songItem1 = songItem(name = "Paradise", year = "2011", length = "4:39", genre = "pop rock, R&B", album = album5)
+songItem1 = songItem(name = "Paradise", year = "2011", length = "4:39", genre = "pop rock, R&B", album = album5, album_id = 5, song_id =17)
 
 session.add(songItem1)
 session.commit()
 
-songItem2 = songItem(name = "Charlie Brown", year = "2012", length = "4:45", genre = "alternative rock, pop rock, power pop", album = album5)
+songItem2 = songItem(name = "Charlie Brown", year = "2012", length = "4:45", genre = "alternative rock, pop rock, power pop", album = album5, album_id = 5, song_id =18)
 
 session.add(songItem2)
 session.commit()
 
-songItem3 = songItem(name = "Every Teardrop is a Waterfall", year = "2011", length = "4:03", genre = "alternative rock, pop rock, electronic rock", album = album5)
+songItem3 = songItem(name = "Every Teardrop is a Waterfall", year = "2011", length = "4:03", genre = "alternative rock, pop rock, electronic rock", album = album5, album_id = 5, song_id =19)
 
 session.add(songItem3)
 session.commit()
 
-songItem4 = songItem(name = "Major Minus", year = "2011", length = "3:30", genre = "alternative rock", album = album5)
+songItem4 = songItem(name = "Major Minus", year = "2011", length = "3:30", genre = "alternative rock", album = album5, album_id = 5, song_id =20)
 
 session.add(songItem4)
 session.commit()
