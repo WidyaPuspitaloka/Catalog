@@ -1,0 +1,40 @@
+{% extends "main.html" %}
+{% block content %}
+{% include "header.html" %}
+<html>
+    <body>
+        <div class="row divider green">
+            <div class="col-md-12"></div>
+        </div>
+        <div class="row banner menu">
+            <div class="col-md-11 col-md-offset-1 padding-none">
+                <h1>Edit Song Item</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-1 padding-top">
+                <form action= "{{url_for('editSongItem', album_id = album_id, song_id=i.id)}}" method = 'POST'>
+                    <label for="name">Name:</label>
+                        <input type ="text" maxlength="250" class="form-control" name="name" value="{{i.name }}">
+                    <br>
+                    <label for="year">Year:</label>
+                        <input type ="text" maxlength="50" class="form-control" name="year" placeholder = "{{i.year}}">
+                    <br>
+                    <label for="length">Length:</label>
+                        <input type ="text" maxlength="50" class="form-control" name="length" placeholder = '{{i.length}}'>
+                    <br>
+                    <label for="genre">Genre:</label>
+                        <input type ="text" maxlength="50" class="form-control" rows="3" name="genre" placeholder = '{{i.genre}}'>
+                    <br>
+                <button type="submit" class="btn btn-default" id="submit" type="submit">
+                    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Save</button>
+                    <a href = "{{url_for ('showSong', album_id = album_id)}}">
+                        <button class="btn btn-default delete">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Cancel</button>
+                    </a>
+                </form>
+            </div>
+        </div>
+{% endblock %}
+    </body>
+</html>

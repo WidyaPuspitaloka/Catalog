@@ -3,16 +3,17 @@
 {% include "header.html" %}
 
 <html>
-    <div class="row divider green">
-        <div class="col-md-12"></div>
-    </div>
-    <div class="row banner menu">
-        <div class="col-md-11 col-md-offset-1 padding-none">
-            <h1>{{ album.name }}</h1>
+    <body>
+    <body>
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <h1> Coldplay Discography </h1>
+                <hr>
+            </div>
         </div>
-    </div>
-
 <!--MESSAGE FLASH -->
+        <div class = 'flash'>
         {% with messages = get_flashed_messages() %}
     {% if messages %}
         <ul>
@@ -23,25 +24,28 @@
         {% endif %}
     {% endwith %}
         </div>
+
+
 <!-- Song Section -->
         <div class="row text-center">
                 <div class="col-md-12">
-                {% for i in songs %}
+                {% for song in songs %}
                     <div class = "song-item">
-                        <h3>{{i.name}}</h3>
-                        <p>Year: {{i.year}}</p>
-                        <p>Length: {{i.length}} </p>
-                        <p>Genre: {{i.genre}} </p>
+                        <h3>{{song.name}}</h3>
+                        <p>Year: {{song.year}}</p>
+                        <p>Length: {{song.length}} </p>
+                        <p>Genre: {{song.genre}} </p>
                 {% endfor %}
                     </div>
                 </div>
         </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
 {% endblock %}
 </body>
+
 </html>

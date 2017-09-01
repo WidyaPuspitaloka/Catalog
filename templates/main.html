@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Coldplay Discography</title>
+         <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
+        <script type="text/javascript" src="https://apis.google.com/js/client:platform.js?onload=start"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"> </script>
+
     </head>
     <body>
         <div class="container">
             {% block content %}
             {% endblock %}
         </div>
-    </body>
+   </body>
+        <div class="row text-center">
+            <div class="col-md-12 panel-footer navbar-fixed-bottom">
+                <footer>
+                    <br>
+                    <p>Created by: Widya Puspitaloka, 2017| Amsterdam, NL</p>
+                </footer>
+            </div>
+        </div>
 </html>
