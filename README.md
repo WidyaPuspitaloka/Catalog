@@ -50,7 +50,7 @@ Loading the data
 * Run `python coldplaydiscography.py` to add the song and album items
 
 Running the script
-* Inside the `vagrant` directory in the VM, go to a new directory containing the cloned repository(https://github.com/WidyaPuspitaloka/Catalog.git)
+* Inside the `vagrant` directory in the VM, go to a new directory containing the [cloned repository](https://github.com/WidyaPuspitaloka/Catalog.git)
 * Run `$ python finalproject.py` to execute the program and to look at the database
 * Open your webbrowser and visit http://localhost:5000/
 
