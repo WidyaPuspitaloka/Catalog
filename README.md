@@ -55,7 +55,7 @@ Running the script
 * Open your webbrowser and visit http://localhost:5000/
 
 ### Expected Functionality
-* Without logged in, users only can see public pages
+* Without log in, users only can see public pages
 * Users can login / logout with Google account.
 * Logged in users can add, edit and delete their own album and song.
 * Can access JSON data 
