@@ -13,14 +13,14 @@ This application uses Flask,SQL Alchemy, JQuery,CSS, Javascript, and OAuth2.
 4. OAuth 2.0
 5. Flask
 6. SQLAlchemy
-7. [Catalog repository] (https://github.com/WidyaPuspitaloka/Catalog.git)
+7. [Catalog repository](https://github.com/WidyaPuspitaloka/Catalog.git)
 
 ### Setup
 * Download and isntall Python 2 (if you have not already)
 * Download and install [vagrant](https://www.vagrantup.com/downloads.html) (the link is provided by Udacity)
 * Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) (the link is provided by Udacity)
 * Clone or download, then unzip VM configuration, [fullstack-nanodegree-vm](https://github.com/udacity/fullstack-nanodegree-vm ) provided by Udacity
-* Clone or download [this repository] (https://github.com/WidyaPuspitaloka/Catalog.git) into `vagrant` directory
+* Clone or download [this repository](https://github.com/WidyaPuspitaloka/Catalog.git) into `vagrant` directory
 
 ### Usage
 Starting virtual machine 
@@ -44,13 +44,13 @@ Set up a Google authorization application
 * In main.html replace the line "data-clientid="xxxx" so that it uses your Client ID from the web applciation.
 
 Loading the data
-* Unzip the [cloned repository] (https://github.com/WidyaPuspitaloka/Catalog.git), place the folder in the same directory as the `VagrantFile` file inside `vagrant`.
+* Unzip the [cloned repository](https://github.com/WidyaPuspitaloka/Catalog.git), place the folder in the same directory as the `VagrantFile` file inside `vagrant`.
 * From your terminal, go to a new directory containing the cloned repository
 * Run `python database_setup.py` to create the database.
 * Run `python coldplaydiscography.py` to add the song and album items
 
 Running the script
-* Inside the `vagrant` directory in the VM, go to a new directory containing the cloned repository
+* Inside the `vagrant` directory in the VM, go to a new directory containing the cloned repository(https://github.com/WidyaPuspitaloka/Catalog.git)
 * Run `$ python finalproject.py` to execute the program and to look at the database
 * Open your webbrowser and visit http://localhost:5000/
 
